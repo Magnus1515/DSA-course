@@ -11,11 +11,33 @@ public class Main {
 //
 //        myLinkedList.printList();
 
-        LinkedList myLinkedList = new LinkedList(1);
+        LinkedList myLinkedList = new LinkedList(0);
 
         myLinkedList.append(2);
-        myLinkedList.append(56);
-
+//        myLinkedList.append(23);
+//        myLinkedList.append(7);
+//
+//        myLinkedList.set(1, 4);
+        myLinkedList.insert(1,1);
         myLinkedList.printList();
+//
+//
+//        myLinkedList.prepend(1);
+//        myLinkedList.printList();
+
+        // Trying to remove last function
+        // 2 items - Returns 2 Node
+        //System.out.println(myLinkedList.removeLast().value);
+        // 1 Item - Returns 1 Node
+        //System.out.println(myLinkedList.removeLast().value);
+        // 0 Item - Returns null
+        //System.out.println(myLinkedList.removeLast());
+//        System.out.println(myLinkedList.get(3));
+        // 2 items - Returns 2 Node
+        //System.out.println(myLinkedList.removeFirst().value);
+        // 1 Item - Returns 1 Node
+        //System.out.println(myLinkedList.removeFirst().value);
+        // 0 Item - Returns null
+        //System.out.println(myLinkedList.removeLast());
     }
 }

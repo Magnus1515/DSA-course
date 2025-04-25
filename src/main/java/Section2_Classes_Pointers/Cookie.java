@@ -1,4 +1,4 @@
-package classes;
+package Section2_Classes_Pointers;
 
 public class Cookie {
     private String color;
