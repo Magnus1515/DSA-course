@@ -11,20 +11,24 @@ public class Main {
 //
 //        myLinkedList.printList();
 
-        LinkedList myLinkedList = new LinkedList(0);
+        LinkedList myLinkedList = new LinkedList(1);
 
         myLinkedList.append(2);
+        myLinkedList.append(3);
+        myLinkedList.append(4);
+
+        myLinkedList.reverse2(1);
 //        myLinkedList.append(23);
 //        myLinkedList.append(7);
 //
 //        myLinkedList.set(1, 4);
-        myLinkedList.insert(1,1);
-        myLinkedList.printList();
+//        myLinkedList.insert(1,1);
+//        myLinkedList.printList();
 //
 //
 //        myLinkedList.prepend(1);
 //        myLinkedList.printList();
-
+        myLinkedList.printList();
         // Trying to remove last function
         // 2 items - Returns 2 Node
         //System.out.println(myLinkedList.removeLast().value);
