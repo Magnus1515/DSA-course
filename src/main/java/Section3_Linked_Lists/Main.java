@@ -17,7 +17,7 @@ public class Main {
         myLinkedList.append(3);
         myLinkedList.append(4);
 
-        myLinkedList.reverse2(1);
+        myLinkedList.reverse();
 //        myLinkedList.append(23);
 //        myLinkedList.append(7);
 //

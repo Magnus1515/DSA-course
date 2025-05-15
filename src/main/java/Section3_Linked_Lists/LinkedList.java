@@ -14,7 +14,7 @@ public class LinkedList {
     private Node tail; //Cola o el final
     private int length;
 
-    // Constructor
+    // Constructor for the linked list
     public LinkedList(int value) {
         Node newNode = new Node(value);
         head = newNode;
@@ -43,14 +43,19 @@ public class LinkedList {
     }
 
     public void append(int value) {
+        // First create the new node
         Node newNode = new Node(value);
         if (length == 0) {
+            // if length is 0 so those values are the head and tail
             head = newNode;
             tail = newNode;
         } else {
+            // and the move the tail
             tail.next = newNode;
+            // assign the new node to tail
             tail = newNode;
         }
+        // everything we add a new node important to upgrade length
         length++;
     }
 
